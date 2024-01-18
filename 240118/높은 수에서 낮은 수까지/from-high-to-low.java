@@ -5,7 +5,9 @@ public class Main {
         int a = s.nextInt();
         int b = s.nextInt();
 
-        for(int i = b; i>=a; i--) {
+        int i = a<b ? b : a ;
+        int i2 = a>b ? b : a;
+        for(int x = i; i>=i2; i--) {
             System.out.print(i+" ");
         }
     }
