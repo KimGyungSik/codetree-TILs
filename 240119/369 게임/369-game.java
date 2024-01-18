@@ -9,7 +9,7 @@ public class Main {
         // 그렇지 않으면 그대로 숫자 출력
 
         for(int i=1; i<=n; i++) {
-            if(i%3==0 || (i%10==3||i%10==6||i%10==9)) {
+            if(i%3==0 || (i%10==3||i%10==6||i%10==9)||(30<=i&&i<40)||(60<=i&&i<70)||(90<=i&&i<100)) {
                 System.out.print(0+" ");
             }else {
                 System.out.print(i+" ");
