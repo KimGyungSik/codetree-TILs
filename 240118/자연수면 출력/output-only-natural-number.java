@@ -6,10 +6,12 @@ public class Main {
         int a = s.nextInt();
         int b = s.nextInt();
 
-        if(a>=0) {
+        if(a>0) {
             for(int i=0; i<b; i++) {
                 System.out.print(a);
             }
+        }else {
+            System.out.print(0);
         }
     }
 }
