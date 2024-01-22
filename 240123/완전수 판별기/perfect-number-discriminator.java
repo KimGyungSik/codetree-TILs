@@ -10,7 +10,7 @@ public class Main {
                 sum += i;
             }
         }
-        if(sum==6) 
+        if(sum==n) 
             System.out.println("P");
         else 
             System.out.println("N");
