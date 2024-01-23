@@ -10,8 +10,7 @@ public class Main {
         // 몫이 1이하가 되는 순간 반복문 종료
         while(n>=1) {
             n = n/i++;
-            answer++;
         }
-        System.out.println(answer);
+        System.out.println(i);
     }
 }
