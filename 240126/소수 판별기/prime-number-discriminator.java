@@ -9,6 +9,6 @@ public class Main {
             if(n%i==0)
                 cnt++;
         }
-        System.out.println(cnt<2 ? "P":"C");
+        System.out.println(cnt<=2 ? "P":"C");
     }
 }
