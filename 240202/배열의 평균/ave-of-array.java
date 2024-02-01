@@ -35,6 +35,6 @@ public class Main {
             sum2 = 0;
         }
          System.out.println();
-        System.out.println(sum3/8.0);
+        System.out.printf("%.1f",sum3/8.0);
     }
 }
